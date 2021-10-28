@@ -1,5 +1,7 @@
+import { Unit } from "mathjs";
+
 export class DataPoint {
-    value: number | null;
+    value: Unit | null;
     dateTime: Date | null;
 
     constructor() {

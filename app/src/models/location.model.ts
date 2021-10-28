@@ -1,4 +1,5 @@
 import { Address } from "./address.model";
+import { Machine } from "./machine.model";
 
 export class Location {
     id: string | null;

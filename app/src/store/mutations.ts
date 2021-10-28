@@ -11,5 +11,5 @@ export const mutations: MutationTree<RootState> = {
     },
     setError(state, payload: ErrorMessage) {
         state.errorMessage = payload;
-    } 
+    }
 };
