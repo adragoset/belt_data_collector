@@ -8,12 +8,12 @@ class Props {
     public navLinks = prop<string[]>({ default: () => {
         return [
             {
-                linkTitle: 'Calibrations',
-                url: '/calibrations'
+                linkTitle: 'Locations',
+                url: '/locations'
             },
             {
-                linkTitle: 'System Health',
-                url: '/health'
+                linkTitle: 'Stored Reports',
+                url: '/stored-reports'
             }
         ];
     }});
